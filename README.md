@@ -66,3 +66,28 @@ Used samples: 5,000 (random subset)
 Validation batches: 1250
 
 # Note: Subset sampling (20K/5K instead of full data) was used to reduce GPU memory usage and speed up training while maintaining representative data distribution.
+
+# 🏗️ Architecture Highlights
+
+Transformer-based global dependency modeling
+
+CNN-based local pattern extraction
+
+Multi-scale receptive fields via adaptive dilation
+
+Skip connections for information preservation
+
+# Training Progress
+Metric	Epoch 1	Epoch 24	Improvement
+Training Loss	0.1370	0.1166	↓ 14.9%
+Validation Loss	0.1224	0.1146	↓ 6.4%
+Training MAE	0.0380	0.0108	↓ 71.6%
+Validation MAE	0.0306	0.0109	↓ 64.4%
+
+# Best Performance Metrics
+Metric	Value
+PCC	0.6268
+SSIM	0.9308
+PSNR	21.82 dB
+MSE	0.000412
+MAE	0.011257
