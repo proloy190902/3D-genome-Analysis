@@ -1,4 +1,5 @@
 # 3D-genome-Analysis
+# HiC-MAFormer: Multi-Modal Transformer Framework for Cross-Cell Hi-C Resolution Enhancement
 # 📌 Overview
 
 HiC-MAFormer is a novel multi-modal transformer-based architecture designed for Hi-C contact map super-resolution. The model takes low-resolution Hi-C matrices (40×40) as input and predicts corresponding high-resolution contact maps, effectively enhancing genomic interaction patterns while preserving biological structure.
@@ -16,6 +17,9 @@ Transformer-style feed-forward blocks with CNN-level efficiency
 Robust skip connections for stable training
 
 Designed specifically for Hi-C super-resolution tasks
+
+# Architecture Pipeline
+
 
 # 📂 Dataset
 
