@@ -19,6 +19,7 @@ Robust skip connections for stable training
 Designed specifically for Hi-C super-resolution tasks
 
 # Architecture Pipeline
+![Result Image](https://github.com/proloy190902/3D-genome-Analysis/blob/74e7010bea169ea275bae196d7a9ad700194359e/HiC-MAFormer.png)
 
 
 # 📂 Dataset
